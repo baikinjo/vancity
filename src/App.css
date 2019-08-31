@@ -1,4 +1,10 @@
 body {
   font-family: 'Playfair Display', serif;
   font-family: 'Libre Caslon Display', serif;
+  padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black
 }
