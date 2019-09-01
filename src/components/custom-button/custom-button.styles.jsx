@@ -52,7 +52,6 @@ export const CustomButtonContainer = styled.button`
   font-family: 'Playfair Display', serif;
   font-family: 'Libre Caslon Display', serif;
   font-weight: bolder;
-
   cursor: pointer;
   display: flex;
   justify-content: center;
