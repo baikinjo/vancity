@@ -38,6 +38,7 @@ const getButtonStyles = props => {
   if (props.isGoogleSignIn) {
     return googleSignInStyles
   }
+
   return props.inverted ? invertedButtonStyles : buttonStyles
 }
 
@@ -48,13 +49,12 @@ export const CustomButtonContainer = styled.button`
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
-  font-size: 17px;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Libre Caslon Display', serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
   font-weight: bolder;
   cursor: pointer;
   display: flex;
   justify-content: center;
-
   ${getButtonStyles}
 `
